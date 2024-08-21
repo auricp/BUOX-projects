@@ -200,7 +200,7 @@ def full_chain():
     }
     return jsonify(response), 200
 
-
+# main host running
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 
