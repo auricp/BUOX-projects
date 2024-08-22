@@ -143,9 +143,6 @@ node_identifier = str(uuid4()).replace('-','')
 # Instantiate the Blockchain
 blockchain = Blockchain()
 
-# init genesis block
-#blockchain.new_block(previous_hash='1',proof=100)
-
 # method to mine a new block
 @app.route('/mine', methods=['GET'])
 def mine():
